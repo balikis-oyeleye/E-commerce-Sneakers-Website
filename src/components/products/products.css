@@ -1,0 +1,28 @@
+.row{
+  margin-top: 3rem !important;
+  row-gap: 1.5rem !important;
+}
+
+.row div{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title a{
+  text-decoration: none;
+  color: #000;
+}
+
+.card-title a:hover{
+  color: var(--main-color);
+}
+
+.btn-card{
+  background-color: var(--main-color) !important;
+}
+
+.btn-card:hover{
+  color: #fff !important;
+}
