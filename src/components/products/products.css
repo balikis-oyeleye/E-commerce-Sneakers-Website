@@ -4,10 +4,12 @@
 }
 
 .row div{
-  align-items: center;
-  justify-content: center;
   display: flex;
   flex-direction: column;
+}
+
+.card p{
+  margin-bottom: 0.5rem !important;
 }
 
 .card-title a{
