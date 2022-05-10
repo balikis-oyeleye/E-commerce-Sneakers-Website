@@ -4,7 +4,7 @@ import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
 const Rating = ({ value }) => {
   return (
-    <div className="d-flex flex-row gap-1">
+    <div className="rating d-flex flex-row gap-1">
       {[1, 2, 3, 4, 5].map((rate) => (
         <span key={nanoid()}>
           {value + 1 === rate + 0.5 ? (

@@ -3,12 +3,23 @@
   row-gap: 1.5rem !important;
 }
 
-.row div{
+.row > div{
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
 
+span{
+  padding-top: 0 !important;
+}
+
+
 .card p{
+  margin-bottom: 0 !important;
+}
+
+.rating{
   margin-bottom: 0.5rem !important;
 }
 
@@ -23,6 +34,7 @@
 
 .btn-card{
   background-color: var(--main-color) !important;
+  width: 100% !important;
 }
 
 .btn-card:hover{

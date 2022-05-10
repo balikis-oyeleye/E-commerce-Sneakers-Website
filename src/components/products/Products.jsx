@@ -16,9 +16,7 @@ const Products = () => {
               <a href="#img">{item.name}</a>
             </Card.Title>
             <Card.Text>{item.price}</Card.Text>
-            <Card.Text>
-              <Rating value={item.rating} />
-            </Card.Text>
+            <Rating value={item.rating} />
             <button className="btn btn-card">Add To Cart</button>
           </Card.Body>
         </Card>
