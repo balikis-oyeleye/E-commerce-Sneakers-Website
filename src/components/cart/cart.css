@@ -68,7 +68,7 @@
   background-color:var(--main-color);
   border: none;
   outline: none;
-  padding: 0 0.5rem;
+  padding: 0.3rem 0.5rem 0.4rem;
   font-size: 1.2rem;
 }
 
