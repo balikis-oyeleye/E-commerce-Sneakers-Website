@@ -1,20 +1,38 @@
-import { createContext, useContext, useReducer } from "react";
+import {
+  createContext,
+  useContext,
+  useReducer,
+  useState,
+  useEffect,
+} from "react";
 import { reducer } from "./Reducers";
 import { Data } from "../components/data";
 
 const Cart = createContext();
 
-const Context = ({ children }) => {
+const AppContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, {
     products: Data,
     cart: [],
   });
 
-  return <Cart.Provider value={{ state, dispatch }}>{children}</Cart.Provider>;
+  const [itemCount, setItemCount] = useState(0);
+
+  useEffect(() => {
+    setItemCount(
+      state.cart.reduce((prev, current) => prev + Number(current.qty), 0)
+    );
+  }, [state.cart]);
+
+  return (
+    <Cart.Provider value={{ state, itemCount, dispatch }}>
+      {children}
+    </Cart.Provider>
+  );
 };
 
-export const CartState = () => {
+export const useGlobalContext = () => {
   return useContext(Cart);
 };
 
-export default Context;
+export default AppContextProvider;
