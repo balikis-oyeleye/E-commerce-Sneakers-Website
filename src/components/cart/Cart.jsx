@@ -12,6 +12,7 @@ const Cart = () => {
 
   const [totalPrice, setTotalPrice] = useState(0);
 
+  // cart items total price
   useEffect(() => {
     setTotalPrice(
       cart.reduce((prev, current) => {
@@ -22,7 +23,6 @@ const Cart = () => {
     );
   }, [cart]);
 
-  //  prev + Number(current.price);
   let cartList = cart.map((item) => {
     return (
       <div key={item.id} className="cart_main shadow-md">
@@ -72,7 +72,16 @@ const Cart = () => {
   return (
     <Row>
       <Col lg="8" xs="12">
-        <div style={{ width: "100%" }}>{cartList}</div>
+        <div style={{ width: "100%" }}>
+          {cart.length === 0 ? (
+            <div className="text-center">
+              <h4>Your cart is empty!</h4>
+              <p>Browse our categories and discover our best deals!</p>
+            </div>
+          ) : (
+            cartList
+          )}
+        </div>
       </Col>
       <Col lg="4" xs="12" className="cart_right">
         <div style={{ width: "100%" }} className="cart_right-main">
