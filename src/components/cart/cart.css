@@ -1,0 +1,87 @@
+.cart_main{
+  background-color: #fff;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.cart_details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cart_details img{
+  width: 8.5rem;
+  height: 10rem;
+}
+
+.cart_details h4{
+  margin-left: 1.4rem ;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cart_details h4:hover{
+  color: var(--main-color);
+}
+
+.cart_details p{
+  margin-left: 1.4rem;
+  font-size: 1em;
+}
+
+.cart_details h6{
+  font-size: 1.2rem;
+}
+
+.cart_amount{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.cart_amount .btn-remove{
+  color:var(--main-color);
+
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.cart_amount-btn{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.btn-increase, .btn-decrease{
+  background-color:var(--main-color);
+  border: none;
+  outline: none;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.cart_right{
+  max-height: 10rem;
+}
+
+.cart_right-main{
+  background-color: #fff;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
