@@ -57,6 +57,7 @@ const Header = () => {
         <button
           onClick={() => {
             productDispatch({ type: "FILTER_BY_SEARCH", payload: queryWord });
+            setQueryWord("");
           }}
           type="button"
           className="btn-search"
