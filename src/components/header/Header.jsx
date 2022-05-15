@@ -1,24 +1,32 @@
 import React from "react";
 import Offcanvas from "./Offcanvas";
 import "./header.css";
+import { Link } from "react-router-dom";
+import { useGlobalContext } from "../../context/Context";
 import { Badge, Container, Form } from "react-bootstrap";
 import { BsCart } from "react-icons/bs";
 import { AiOutlineUser } from "react-icons/ai";
 import { Dropdown } from "react-bootstrap";
 
 const Header = () => {
+  const { itemCount } = useGlobalContext();
+
   return (
-    <header>
+    <header className="shadow-sm">
       <div className="header">
         <Offcanvas />
         <div className="header-title">
-          <h2>Sneakers</h2>
+          <h2>
+            <Link to="/">Sneakers</Link>
+          </h2>
         </div>
         <div className="header-action">
           <div className="cart">
-            <BsCart size={25} />
+            <Link to="/cart">
+              <BsCart size={25} />
+            </Link>
             <Badge pill bg="warning">
-              {0}
+              {itemCount}
             </Badge>
           </div>
           <Dropdown>
