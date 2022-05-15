@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import { useGlobalContext } from "../../context/Context";
 import { FaTrash } from "react-icons/fa";
+import { FiMinus, FiPlus } from "react-icons/fi";
 import "./cart.css";
 
 const Cart = () => {
@@ -50,7 +51,17 @@ const Cart = () => {
             <FaTrash /> REMOVE
           </button>
           <div className="cart_amount-btn">
-            <button className="btn-decrease">-</button>
+            <button
+              onClick={() => {
+                dispatch({
+                  type: "DECREASE_ITEM",
+                  payload: item,
+                });
+              }}
+              className="btn-decrease"
+            >
+              <FiMinus />
+            </button>
             <span> {item.qty}</span>
             <button
               onClick={() => {
@@ -61,7 +72,7 @@ const Cart = () => {
               }}
               className="btn-increase"
             >
-              +
+              <FiPlus />
             </button>
           </div>
         </div>
@@ -83,13 +94,15 @@ const Cart = () => {
           )}
         </div>
       </Col>
-      <Col lg="4" xs="12" className="cart_right">
-        <div style={{ width: "100%" }} className="cart_right-main">
-          <h4>CART SUMMARY</h4>
-          <p>Subtotal: ${totalPrice}</p>
-          <button className="btn btn-card">CHECKOUT (${totalPrice})</button>
-        </div>
-      </Col>
+      {cart.length !== 0 && (
+        <Col lg="4" xs="12" className="cart_right">
+          <div style={{ width: "100%" }} className="cart_right-main">
+            <h4>CART SUMMARY</h4>
+            <p>Subtotal: ${totalPrice}</p>
+            <button className="btn btn-card">CHECKOUT (${totalPrice})</button>
+          </div>
+        </Col>
+      )}
     </Row>
   );
 };

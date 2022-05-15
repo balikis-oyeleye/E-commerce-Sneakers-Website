@@ -5,7 +5,7 @@ import {
   useState,
   useEffect,
 } from "react";
-import { reducer } from "./Reducers";
+import { reducer, productReducer } from "./Reducers";
 import { Data } from "../components/data";
 
 const Cart = createContext();
@@ -34,8 +34,14 @@ const AppContextProvider = ({ children }) => {
     );
   }, [state.cart]);
 
+  const [productFiltered, productDispatch] = useReducer(productReducer, {
+    searchQuery: "",
+  });
+
   return (
-    <Cart.Provider value={{ state, itemCount, dispatch }}>
+    <Cart.Provider
+      value={{ state, itemCount, dispatch, productDispatch, productFiltered }}
+    >
       {children}
     </Cart.Provider>
   );

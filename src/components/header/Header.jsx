@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Offcanvas from "./Offcanvas";
 import "./header.css";
 import { Link } from "react-router-dom";
@@ -9,7 +9,15 @@ import { AiOutlineUser } from "react-icons/ai";
 import { Dropdown } from "react-bootstrap";
 
 const Header = () => {
-  const { itemCount } = useGlobalContext();
+  const { itemCount, productDispatch } = useGlobalContext();
+  const [queryWord, setQueryWord] = useState("");
+
+  const handleQuery = (e) => {
+    setQueryWord((query) => {
+      query = e.target.value;
+      return query;
+    });
+  };
 
   return (
     <header className="shadow-sm">
@@ -40,8 +48,19 @@ const Header = () => {
         </div>
       </div>
       <Container className="search-box">
-        <Form.Control type="search" placeholder="Search..." />
-        <button type="button" className="btn-search">
+        <Form.Control
+          type="text"
+          value={queryWord}
+          placeholder="Search..."
+          onChange={handleQuery}
+        />
+        <button
+          onClick={() => {
+            productDispatch({ type: "FILTER_BY_SEARCH", payload: queryWord });
+          }}
+          type="button"
+          className="btn-search"
+        >
           Search
         </button>
       </Container>
