@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/E-commerce-Sneakers-Website/static/css/main.b2d5942f.css",
-    "main.js": "/E-commerce-Sneakers-Website/static/js/main.508aa9e8.js",
+    "main.js": "/E-commerce-Sneakers-Website/static/js/main.e0fc096e.js",
     "static/media/luis-felipe-lins-S6Cp3uN39_M-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/luis-felipe-lins-S6Cp3uN39_M-unsplash.903b8383aa6a14e4d36d.jpg",
     "static/media/revolt-164_6wVEHfI-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/revolt-164_6wVEHfI-unsplash.767417bea17688d6d8ce.jpg",
     "static/media/kier-in-sight-R0mbwH2wxj0-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/kier-in-sight-R0mbwH2wxj0-unsplash.268170f19c80601850f7.jpg",
@@ -24,10 +24,10 @@
     "static/media/photo-1574791418059-2e8d961ab4fb.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1574791418059-2e8d961ab4fb.54bde8ea8a94ffdd0f5c.jpeg",
     "index.html": "/E-commerce-Sneakers-Website/index.html",
     "main.b2d5942f.css.map": "/E-commerce-Sneakers-Website/static/css/main.b2d5942f.css.map",
-    "main.508aa9e8.js.map": "/E-commerce-Sneakers-Website/static/js/main.508aa9e8.js.map"
+    "main.e0fc096e.js.map": "/E-commerce-Sneakers-Website/static/js/main.e0fc096e.js.map"
   },
   "entrypoints": [
     "static/css/main.b2d5942f.css",
-    "static/js/main.508aa9e8.js"
+    "static/js/main.e0fc096e.js"
   ]
 }
