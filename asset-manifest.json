@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/E-commerce-Sneakers-Website/static/css/main.b2d5942f.css",
+    "main.js": "/E-commerce-Sneakers-Website/static/js/main.b3c578ad.js",
+    "index.html": "/E-commerce-Sneakers-Website/index.html",
+    "main.b2d5942f.css.map": "/E-commerce-Sneakers-Website/static/css/main.b2d5942f.css.map",
+    "main.b3c578ad.js.map": "/E-commerce-Sneakers-Website/static/js/main.b3c578ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2d5942f.css",
+    "static/js/main.b3c578ad.js"
+  ]
+}
