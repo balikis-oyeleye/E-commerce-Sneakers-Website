@@ -1,13 +1,33 @@
 {
   "files": {
     "main.css": "/E-commerce-Sneakers-Website/static/css/main.b2d5942f.css",
-    "main.js": "/E-commerce-Sneakers-Website/static/js/main.b3c578ad.js",
+    "main.js": "/E-commerce-Sneakers-Website/static/js/main.508aa9e8.js",
+    "static/media/luis-felipe-lins-S6Cp3uN39_M-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/luis-felipe-lins-S6Cp3uN39_M-unsplash.903b8383aa6a14e4d36d.jpg",
+    "static/media/revolt-164_6wVEHfI-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/revolt-164_6wVEHfI-unsplash.767417bea17688d6d8ce.jpg",
+    "static/media/kier-in-sight-R0mbwH2wxj0-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/kier-in-sight-R0mbwH2wxj0-unsplash.268170f19c80601850f7.jpg",
+    "static/media/the-dk-photography-b9e8ffVw5XY-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/the-dk-photography-b9e8ffVw5XY-unsplash.c737a7f5c2453a9067af.jpg",
+    "static/media/ryan-plomp-76w_eDO1u1E-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/ryan-plomp-76w_eDO1u1E-unsplash.fa2668911a972f0cd8d8.jpg",
+    "static/media/mana-akbarzadegan-Y0RB2z12F1A-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/mana-akbarzadegan-Y0RB2z12F1A-unsplash.b02659ed2e612ab1f52b.jpg",
+    "static/media/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/ryan-plomp-jvoZ-Aux9aw-unsplash.4bb4fb46dcb501904f0c.jpg",
+    "static/media/ox-street-BWPqHZBhMVA-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/ox-street-BWPqHZBhMVA-unsplash.cd66a0fcc22e0283724d.jpg",
+    "static/media/joel-muniz-bS_1xFUPgWU-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/joel-muniz-bS_1xFUPgWU-unsplash.542f31b7f24925b563e7.jpg",
+    "static/media/alexander-rotker-l8p1aWZqHvE-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/alexander-rotker-l8p1aWZqHvE-unsplash.9ed97c941c42a5575913.jpg",
+    "static/media/imani-bahati-LxVxPA1LOVM-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/imani-bahati-LxVxPA1LOVM-unsplash.fa8740002db173c06e7e.jpg",
+    "static/media/daniel-storek-JM-qKEd1GMI-unsplash.jpg": "/E-commerce-Sneakers-Website/static/media/daniel-storek-JM-qKEd1GMI-unsplash.601abd1acf72914fa184.jpg",
+    "static/media/photo-1625563206627-7e713d1ac0a8.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1625563206627-7e713d1ac0a8.56d0807e0db307ccc2e8.jpeg",
+    "static/media/photo-1618615098938-84fc29796e76.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1618615098938-84fc29796e76.09dafc558f61d64918bf.jpeg",
+    "static/media/photo-1603487742131-4160ec999306.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1603487742131-4160ec999306.93e5ea08a6e0169bfe60.jpeg",
+    "static/media/photo-1549298916-f52d724204b4.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1549298916-f52d724204b4.d3c7aa9477e540446789.jpeg",
+    "static/media/photo-1610398752800-146f269dfcc8.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1610398752800-146f269dfcc8.a6241bb413d8a8a41296.jpeg",
+    "static/media/photo-1604001307862-2d953b875079.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1604001307862-2d953b875079.2c75c1cc6c63755952c0.jpeg",
+    "static/media/photo-1562273138-f46be4ebdf33.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1562273138-f46be4ebdf33.d6a0594fa3a44fdb7688.jpeg",
+    "static/media/photo-1574791418059-2e8d961ab4fb.jpeg": "/E-commerce-Sneakers-Website/static/media/photo-1574791418059-2e8d961ab4fb.54bde8ea8a94ffdd0f5c.jpeg",
     "index.html": "/E-commerce-Sneakers-Website/index.html",
     "main.b2d5942f.css.map": "/E-commerce-Sneakers-Website/static/css/main.b2d5942f.css.map",
-    "main.b3c578ad.js.map": "/E-commerce-Sneakers-Website/static/js/main.b3c578ad.js.map"
+    "main.508aa9e8.js.map": "/E-commerce-Sneakers-Website/static/js/main.508aa9e8.js.map"
   },
   "entrypoints": [
     "static/css/main.b2d5942f.css",
-    "static/js/main.b3c578ad.js"
+    "static/js/main.508aa9e8.js"
   ]
 }
