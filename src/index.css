@@ -10,7 +10,7 @@
 }
 
 body{
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   background-color: #e8e8e8 !important;
 }
 
