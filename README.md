@@ -15,10 +15,10 @@ Users should be able to:
 
 ### Gallery
 
-![](/public/images/product-desktop-view.png)
-![](/public/images/product-mobile-view.png)
-![](/public/images/cart-desktop-view.png)
-![](/public/images/cart-mobile-view.png)
+![Product Desktop View](/src/assets/images/product-desktop-view.png)
+![Product Mobile View](/src/assets/images/product-mobile-view.png)
+![Cart Desktop View](/src/assets//images/cart-desktop-view.png)
+![Cart Mobile View](/src/assets//images/cart-mobile-view.png)
 
 ### Built With
 
